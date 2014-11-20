@@ -9,3 +9,7 @@ The staging area acts as a place to ready the files to be added to a commit.  It
 How can you use the staging area to make sure you have one commit per logical change?
 
 By using 'git diff --staged' to compare against the current commit; this tells you what changes you have against the most recent updates, and thus whether these are logical changes or not.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Adding or testing a new feature, or multiple methods of implementing said feature.  It allows you to retain a working copy while still testing the code, and easily reverting back to the working code.
