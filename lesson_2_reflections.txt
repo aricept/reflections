@@ -21,3 +21,7 @@ They allow a better understanding of the history of the branch, what code is and
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 A merge analyzes changes made to different branches and determines the best course of action for each: do we retain or remove this change in the merge?  We represent the branch in the diagram because of the way that each set of code "branches" away from each other with continual code changes, until they may be merged together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Auto-merges can take a lot of tedious copy and paste out of simple edits that have been made to different branches.  They can also be very conservative in their guessing, which will still require much work.
