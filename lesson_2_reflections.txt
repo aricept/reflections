@@ -17,3 +17,7 @@ Adding or testing a new feature, or multiple methods of implementing said featur
 How do the diagrams help you visualize the branch structure?
 
 They allow a better understanding of the history of the branch, what code is and is not included, and an idea of the underlying structure to prepare for merges.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A merge analyzes changes made to different branches and determines the best course of action for each: do we retain or remove this change in the merge?  We represent the branch in the diagram because of the way that each set of code "branches" away from each other with continual code changes, until they may be merged together.
