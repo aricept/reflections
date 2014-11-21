@@ -4,4 +4,8 @@ When you are collaborating with others; or when you need access to the repositor
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-Manual pulls avoid the loss of data from improperly synced files, or from malicious tampering.  
+Manual pulls avoid the loss of data from improperly synced files.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A branch is a change in code you are experimenting with or changing away from the previous code.  A clone is an exact duplicate of an existing repository.  A fork is similar to a branch, but exists generally as a project entirely separate from your own and run by someone else using your existing code base as a starting point.
