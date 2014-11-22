@@ -13,3 +13,7 @@ A branch is a change in code you are experimenting with or changing away from th
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 We can more easily merge branches and compare file differences.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Emailing files; sharing them on a SharePoint.  It might be somewhat easier without dealing with the git overhead involved - the staging, the commits, etc - but then we lose some of the pros those things provide, like ensuring we're focused on one issue at a time.  Git make it easier to collaorate by making it easier to see changes to the project than other sources or methods might.
