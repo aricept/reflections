@@ -17,3 +17,7 @@ We can more easily merge branches and compare file differences.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Emailing files; sharing them on a SharePoint.  It might be somewhat easier without dealing with the git overhead involved - the staging, the commits, etc - but then we lose some of the pros those things provide, like ensuring we're focused on one issue at a time.  Git make it easier to collaorate by making it easier to see changes to the project than other sources or methods might.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If those changes are based upon another change already made in the branhc, I would want to make them there, since master does not contain the predicate pieces.  Making changes in master means that I may later have issues performing the merge between the branches, but those may be changes that are more necessary than my branch, which is the main benefot of the branch.
